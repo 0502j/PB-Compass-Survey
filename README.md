@@ -31,4 +31,10 @@
 
   </div>
 
-</seciton>
+</section>
+
+<br><hr>
+<section>
+  <h4>Important links</h4>
+  <p>🔗 Trello: https://bit.ly/3G8bTzk</p>
+</section>

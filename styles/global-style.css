@@ -5,16 +5,17 @@
 
 body{
     display: block;
-    max-width: clamp(700px,50%,900px);
+    max-width: clamp(90rem,50%,90rem);
     padding-inline: 2rem;
     padding-block: 0;
     margin-inline: auto;
     margin-block: 0;
 }
 
+
 .green-btn{
     background-color: #3EB25E;
-    border-radius: 0.25rem;
+    border-radius: 2.1rem;
     width: 12rem;
     height:2rem;
     border-color: transparent;
@@ -23,6 +24,7 @@ body{
     padding: 0.5rem;
     line-height: 0.5rem;
 }
+
 
 /* Responsive styling */
 @media only screen and (max-width:480px){ 

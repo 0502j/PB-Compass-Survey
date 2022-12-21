@@ -1,0 +1,106 @@
+#start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5rem;
+}
+
+.start-char{
+    width: 34rem;
+    margin-right: 5rem;
+}
+
+#start-text{
+    width: 200rem;
+}
+
+#start h1{
+    font-size: 2.4rem;
+    margin: 0;
+    padding: 0;
+}
+
+#start p{
+    font-size:1.7rem;
+    font-weight: 400;
+}
+
+.button-group button{
+    margin: 0.5rem;
+}
+
+
+/* Responsive styling */
+@media only screen and (max-width:480px){
+
+    #start{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 2rem;
+    }
+
+    .start-char{
+        width: 14rem;
+    }
+
+    
+    #start h1{
+        font-size: 1.7rem;
+
+    }
+
+    #start p{
+        font-size:1.1rem;
+    }
+
+    
+    #start-text{
+        width: 15rem;
+    }
+
+    .button-group button{
+        margin: 0.5rem;
+        font-size:0.9rem;
+    }
+    
+}
+
+@media only screen and (min-width: 480px) and (max-width:900px){
+
+    #start{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+     
+    }
+
+    .start-char{
+        width: 16rem;
+        margin: 0;
+    }
+
+    
+    #start h1{
+        font-size: 1.8rem;
+
+    }
+
+    #start p{
+        font-size:1.1rem;
+    }
+
+    
+    #start-text{
+        width: 15rem;
+    }
+
+    .button-group button{
+        margin: 0.5rem;
+        font-size:0.9rem;
+    }
+    
+}

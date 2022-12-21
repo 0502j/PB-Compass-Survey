@@ -1,4 +1,4 @@
-# Compass.Uol - Survey
+## Compass.Uol - Survey
 1st React.js Trail Challenge
 
 <hr>
@@ -14,7 +14,7 @@
 
 <section display="block";>
   <div>
-  <img align="left" src="https://user-images.githubusercontent.com/71787801/208960885-f6e68106-ee7b-4e50-b53b-22f1f8511230.png" style="width:350px">
+  <img align="left" src="https://user-images.githubusercontent.com/71787801/208960885-f6e68106-ee7b-4e50-b53b-22f1f8511230.png" style="width:400px">
   </div>
   <div>
   <h3>Survey Website</h3>

@@ -1,0 +1,44 @@
+<!--
+- O **TextArea** deve ter no máximo 130 caracteres.
+- Ao clicar no botão de **Back** o usuário deve retornar a quinta tela Fluxo.
+- Ao clicar no botão de **Next** o usuário deve ser direcionado para a sexta tela do Fluxo. Contudo, ele só pode ser direcionado se **TextArea** conter conteúdo.
+- Ao clicar no botão de **Skip** o usuário deve ser direcionado para a sexta tela do Fluxo, podendo não ter conteúdo no **TextArea.**
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Adding CSS-->
+    <link rel="stylesheet" href="../styles/losses.css">
+    <link rel="stylesheet" href="../styles/global-style.css">
+    <!--Adding scripts-->
+    <script src="../scripts/losses.js" defer></script>
+    <title>Survey</title>
+</head>
+<body>
+    <!--Start of survey section-->
+        <section id="losses" class="container">
+
+            <img id="losses-char" src="../imgs/char/four.png">
+            
+            <div class="container">
+                <div class="textarea-option">
+                    <h2>If you or someone close to you has already made a loss on the investment, write down the details</h2>
+                    <textarea id="textarea" name="loss-text" maxlength="130"></textarea>
+                </div>
+
+                    <div class="button-group-trio">
+                        <div class="button-group">
+                            <a href="investments.html"><button class="green-btn"><b>Back</b></button></a>
+                            <a href="personaldata.html"><button class="green-btn next"><b>Next</b></button></a>
+                        </div>
+                        <a href="investments.html"><button class="green-btn trio skip"><b>Skip</b></button></a>
+                    </div>
+            </div>
+        </section>
+    <!--End of survey section-->
+</body>
+</html>

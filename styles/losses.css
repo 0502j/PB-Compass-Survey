@@ -1,0 +1,40 @@
+#losses{
+    display: flex;
+    margin: 5rem;
+    padding-top: 2rem;
+}
+
+#losses h2{
+    width: 29rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.container h1,h2,p{
+    font-size: 1.5rem;
+}
+
+#losses-char{
+    margin-right: 5rem;
+    width: 50%;
+}
+
+.investments-form label{
+    font-size: 1.6rem;
+}
+
+.button-group-trio{
+    margin-top: 4rem;
+}
+
+.button-group-trio .trio{
+    margin-top: 1rem;
+    width:80%;
+}
+
+
+
+
+
+
+

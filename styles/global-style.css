@@ -8,6 +8,8 @@
 *{
     font-family: var(--primary-font);
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body{
@@ -86,3 +88,16 @@ input[type="checkbox"]:checked{
     border: 0.5rem solid var(--dark-green);
     box-shadow: 0 0 0 1px var(--primary-green);
 } 
+
+.checkbox-options h2{
+    padding-top: 2rem;
+}
+
+textarea{
+    width: 30rem;
+    height: 14rem;
+    border: 1px solid rgba(0, 0, 0, 0.156);
+    border-radius: 1.25rem;
+    resize: none;
+    padding: 1rem;
+}

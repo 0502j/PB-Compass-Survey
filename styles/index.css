@@ -33,20 +33,29 @@
 
 
 /* Responsive styling */
-@media only screen and (max-width:480px){
+
+@media only screen and (max-width:460px){
 
     #welcome{
         display: block;
         justify-content: center;
         align-items: center;
         text-align: center;
+        margin: auto;
+        padding: auto;
      
     }
 
     .char{
         width: 14rem;
+        margin: 0.5rem;
     }
 
+    
+    #welcome-text{
+        width: 15rem;
+        margin: 4rem;
+    }
     
     #welcome h1{
         font-size: 3rem;
@@ -57,9 +66,13 @@
         font-size:1.5rem;
     }
     
+    #welcome button{
+        margin-top: 2rem;
+    }
+  
 }
 
-@media only screen and (min-width: 480px) and (max-width:900px){
+@media only screen and (min-width: 460px) and (max-width:900px){
 
     #welcome{
         display: flex;
@@ -84,3 +97,5 @@
     }
     
 }
+
+

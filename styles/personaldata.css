@@ -20,11 +20,17 @@
 }
 
 #personaldata-fields input{
-    border: 1px solid rgba(0, 0, 0, 0.156);
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 1.25rem;
     padding: 1rem;
     width: 25rem;
     font-size: 1.4rem;
+    opacity: 50%;
+}
+
+
+#personaldata-fields input:hover {
+    opacity: 100%;
 }
 
 .button-group-trio{

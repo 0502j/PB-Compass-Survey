@@ -36,6 +36,12 @@ body{
     line-height: 0.5rem;
 }
 
+.green-btn:hover{
+    background-color: #FFFF7D;
+    color: black;
+
+}
+
 .radio-options{
     display: inline-block;
 }
@@ -61,15 +67,13 @@ input[type="radio"]{
 
 /*removing default appearance*/
 input[type="radio"]:checked{ 
-    appearance: none;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    border-radius: 50%;
-    border: 0.5rem solid var(--dark-green);
-    box-shadow: 0 0 0 1px var(--primary-green);
+    opacity: 100%;
+} 
+
+input[type="radio"]:hover{ 
+    opacity: 100%;
 } 
  
-
 input[type="checkbox"]{
     appearance: none;
     -webkit-appearance: none;
@@ -82,12 +86,11 @@ input[type="checkbox"]{
 
 /*removing default appearance*/
 input[type="checkbox"]:checked{ 
-    appearance: none;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    border-radius: 0%;
-    border: 0.5rem solid var(--dark-green);
-    box-shadow: 0 0 0 1px var(--primary-green);
+    opacity: 100%;
+} 
+
+input[type="checkbox"]:hover{ 
+    opacity: 100%;
 } 
 
 .checkbox-options h2{
@@ -97,8 +100,15 @@ input[type="checkbox"]:checked{
 textarea{
     width: 30rem;
     height: 14rem;
-    border: 1px solid rgba(0, 0, 0, 0.156);
+    border: 0.08rem solid rgb(0, 0, 0);
     border-radius: 1.25rem;
     resize: none;
     padding: 1rem;
+    opacity: 50%;
 }
+
+textarea:hover{
+    opacity: 100%;
+}
+
+

@@ -24,7 +24,7 @@
     -moz-appearance: none;
     -webkit-appearance: none;
     border-radius: 0.5em;
-    border: 1px solid rgba(0, 0, 0, 0.156);
+    border: 1px solid rgb(0, 0, 0);
     padding:0.2rem;
     width: 75%;
     font-size: 1.3rem;
@@ -34,6 +34,11 @@
     background-repeat: no-repeat;
     background-position: calc(50% - 21.4rem + 10rem);
     background-size: 1rem;
+    opacity: 50%;
+}
+
+#status-options:hover{
+    opacity: 100%;
 }
 
 .training-form label{

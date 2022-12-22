@@ -33,15 +33,15 @@
     opacity: 100%;
 }
 
-.button-group-trio{
-    margin-top: 4rem;
-    margin-bottom: -2rem;
-}
-
-.button-group-trio #skip{
-    width:83%;
+.button-group{
     margin-top: 1rem;
 }
+
+.button-group button{
+    margin-top: 1rem;
+    width: 26rem;
+}
+
 
 
 

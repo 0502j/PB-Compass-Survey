@@ -34,6 +34,15 @@
     font-size: 1.6rem;
 }
 
+.button-group-trio{
+    margin-top: 4rem;
+}
+
+.button-group-trio .trio{
+    margin-top: 1rem;
+    width: 80%;
+}
+
 
 
 

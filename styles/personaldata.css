@@ -28,6 +28,10 @@
     opacity: 50%;
 }
 
+#personaldata-fields #age{
+    width: 10rem;
+}
+
 
 #personaldata-fields input:hover {
     opacity: 100%;

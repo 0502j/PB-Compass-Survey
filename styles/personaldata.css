@@ -1,0 +1,44 @@
+#personaldata{
+    display: flex;
+    margin: 5rem;
+    padding-top: 2rem;
+}
+
+#personaldata h2{
+    width: 29rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+.container h1,h2,p{
+    font-size: 1.5rem;
+}
+
+#personaldata-char{
+    margin-right: 5rem;
+    width: 50%;
+}
+
+#personaldata-fields input{
+    border: 1px solid rgba(0, 0, 0, 0.156);
+    border-radius: 1.25rem;
+    padding: 1rem;
+    width: 25rem;
+    font-size: 1.4rem;
+}
+
+.button-group-trio{
+    margin-top: 4rem;
+    margin-bottom: -2rem;
+}
+
+.button-group-trio .trio{
+    width:83%;
+}
+
+
+
+
+
+
+

@@ -1,7 +1,7 @@
 #index-body{
     display: block;
     max-width: clamp(700px,50%,900px);
-    padding-inline: 2rem;
+    /* padding-inline: 2rem; */
     padding-block: 0;
     margin-inline: auto;
     margin-block: 0;
@@ -37,3 +37,30 @@
 }
 
 
+@media only screen and (max-width: 600px) {
+
+    #welcome{
+        display: block;
+    }
+
+    #char{
+        width: 14rem;
+        margin-inline: 0;
+        margin-block: 0;
+        padding-inline: 0;
+        padding-block: 0;
+    }
+    
+    #welcome h1{
+        font-size: 3.3rem;
+    }
+    
+    #welcome p{
+        font-size:1.3rem;
+    }
+
+    #welcome-text{
+        width: 20rem;
+    }
+
+}

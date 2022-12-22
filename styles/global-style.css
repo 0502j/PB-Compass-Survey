@@ -14,7 +14,6 @@
 }
 
 body{
-    display: block;
     max-width: clamp(90rem,50%,90rem);
     padding-inline: 2rem;
     padding-block: 0;
@@ -112,3 +111,14 @@ textarea:hover{
 }
 
 
+@media only screen and (max-width: 600px) {
+
+    body{
+        max-width: 100%;
+        padding-inline:0;
+        margin: auto;
+        background-color: var(--primary-white);
+    }
+
+    
+}

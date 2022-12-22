@@ -32,8 +32,9 @@
     margin-bottom: -2rem;
 }
 
-.button-group-trio .trio{
+.button-group-trio #skip{
     width:83%;
+    margin-top: 1rem;
 }
 
 

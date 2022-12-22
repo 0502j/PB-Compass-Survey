@@ -1,9 +1,3 @@
-<!--
-- Os **três inputs são obrigatórios** e devem possuir validação Html.
-- Ao clicar no botão de **Back** o usuário deve retornar a quinta tela Fluxo.
-- Ao clicar no botão de **Submit** o cadastro é finalizado com sucesso, e retorna para a primeira tela do fluxo, apenas se os inputs estiverem preenchidos.
--->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,16 +27,15 @@
                         <h2>Age:</h2>
                         <input type="number" required placeholder="_ _">
                      </div>
-                         <div class="button-group-trio">
-                             <div class="button-group">
-                                 <a href="losses.html"><button class="green-btn"><b>Back</b></button></a>
-                                 <a href="success.html"><button class="green-btn next"><b>Next</b></button></a>
-                             </div>
-                         </div>
+
                 </form>
                 
                 <div class="button-group-trio">
-                    <a href="success.html"><button class="green-btn trio skip"><b>Skip</b></button></a>
+                    <div class="button-group">
+                        <a href="losses.html"><button class="green-btn"><b>Back</b></button></a>
+                        <a href="success.html"><button class="green-btn next"><b>Next</b></button></a>
+                        <a href="success.html"><button class="green-btn" id="skip"><b>Skip</b></button></a>
+                    </div>
                 </div>
                 
             </div>

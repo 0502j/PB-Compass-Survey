@@ -3,7 +3,6 @@
     align-items: center;
     text-align: center;
     padding: 4rem;
-    font-family: var(--primary-font);
 }
 
 #success-text > *{
@@ -12,6 +11,7 @@
 
 #success-text > h1{
     font-size: 3rem;
+    color: var(--primary-green);
 }
 
 #success-text > p{

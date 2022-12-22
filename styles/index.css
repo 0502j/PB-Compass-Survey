@@ -16,6 +16,11 @@
  
 }
 
+#welcome-text h1,p{
+    padding: 2rem;
+}
+
+
 .char{
     width: 25rem;
     margin-right: 5rem;

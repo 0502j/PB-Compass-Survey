@@ -3,14 +3,23 @@
     margin: 5rem;
 }
 
+
+#account-status h2{
+    width: 29rem;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+}
+
 .container h1,h2,p{
     font-size: 1.6rem;
 }
 
 #account-char{
     margin-right: 5rem;
-    width: 70%;
+    width: 50%;
 }
+
+
 
 #status-options{
     /*removing default appearance*/

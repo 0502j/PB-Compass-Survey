@@ -3,6 +3,12 @@
     margin: 5rem;
 }
 
+#account-status h2{
+    width: 29rem;
+    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+}
+
 .container h1,h2,p{
     font-size: 1.6rem;
 }
@@ -26,7 +32,7 @@
     padding-left: 2rem;
     background-image: url("../imgs/selection_arrow.png");
     background-repeat: no-repeat;
-    background-position: calc(50% - 21.2rem + 10rem);
+    background-position: calc(50% - 20.5rem + 10rem);
     background-size: 1rem;
 }
 
@@ -40,7 +46,7 @@
 
 .button-group-trio .trio{
     margin-top: 1rem;
-    width: 80%;
+    width: 83%;
 }
 
 

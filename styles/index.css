@@ -57,6 +57,8 @@
 
     #welcome-text{
         width: 20rem;
+        margin-inline: auto;
+
     }
 
 }

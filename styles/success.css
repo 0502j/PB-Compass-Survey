@@ -21,3 +21,30 @@
 #success-char{
     width: 30%;
 }
+
+
+@media only screen and (max-width: 800px) {
+
+    #success{
+        padding: 0rem;
+    }
+    
+    #success-text > *{
+        margin: 1.5rem;
+    }
+    
+    #success-text > h1{
+        font-size: 2rem;
+        color: var(--primary-green);
+    }
+    
+    #success-text > p{
+        font-size: 1rem;
+    }
+    
+    #success-char{
+        width: 70%;
+        padding: 2rem;
+    }
+    
+}

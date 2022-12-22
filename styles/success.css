@@ -1,0 +1,23 @@
+#success{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4rem;
+    font-family: var(--primary-font);
+}
+
+#success-text > *{
+    margin: 1.5rem;
+}
+
+#success-text > h1{
+    font-size: 3rem;
+}
+
+#success-text > p{
+    font-size: 1.2rem;
+}
+
+#success-char{
+    width: 30%;
+}

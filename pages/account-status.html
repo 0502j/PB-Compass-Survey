@@ -1,0 +1,63 @@
+<!--
+- Ao clicar no botão de **Next** o usuário deve ser direcionado para a quarta tela do Fluxo. Contudo, ele só pode ser direcinado se o **input de Radio e Select** forem marcados.
+- Ao clicar no botão de **Skip** o usuário deve ser direcionado para a quarta tela do Fluxo, podendo não ter selecionado **input de Radio e Select.**
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Adding CSS-->
+    <link rel="stylesheet" href="../styles/account-status.css">
+    <link rel="stylesheet" href="../styles/global-style.css">
+    <!--Adding scripts-->
+    <script src="../scripts/account-status.js" defer></script>
+
+    <title>Survey</title>
+</head>
+<body>
+    <!--Start of survey section-->
+        <section id="account-status" class="container">
+            <img id="account-char" src="../imgs/char/two.png">
+            
+            <div class="container form-fields">
+                <div class="selection-options">
+                    <h2>What is the status of your account?</h2>
+                    <select name="options" id="status-options">
+                        <option value="not-selected"></option>
+                        <option value="not-created">I have not created an account yet.</option>
+                        <option value="created-used">I have an account and use it often.</option>
+                        <option value="created-not-used">I have an account but I do not use it often.</option>
+                    </select>
+                </div>
+    
+                <div class="radio-options container">
+                    <h2>In which financial markets do you operate?</h2>
+                    <form id="testing">
+                        <div class="investments-form"><input type="radio" id="stock-market" name="radio-opt" value="stock-market" class="green-radio">
+                        <label for="stock-market">stock market</label></div>
+                        <div class="investments-form"><input type="radio" id="foreign exchange" name="radio-opt" value="foreign exchange">
+                        <label for="foreign exchange">foreign exchange</label></div>
+                        <div class="investments-form"><input type="radio" id="commodity" name="radio-opt" value="commodity">
+                        <label for="commodity">commodity</label></div>
+                        <div class="investments-form"><input type="radio" id="bond market" name="radio-opt" value="bond market">
+                        <label for="bond market">bond market</label></div>
+                        <div class="investments-form"><input type="radio" id="criptocurrency market" name="radio-opt" value="criptocurrency market">
+                        <label for="criptocurrency market">criptocurrency market</label></div>
+                    </form>
+
+                    <div class="button-group-trio">
+                        <div class="button-group">
+                            <a href="start.html"><button class="green-btn back"><b>Back</b></button></a>
+                            <a href="investments.html"><button class="green-btn next"><b>Next</b></button></a>
+                        </div>
+                        <a href="investments.html"><button class="green-btn trio skip"><b>Skip</b></button></a>
+                    </div>
+
+            </div>
+        </section>
+    <!--End of survey section-->
+</body>
+</html>

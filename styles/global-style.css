@@ -41,8 +41,9 @@ body{
     padding-top: 2rem;
 }
 
-.form-fields{
-    padding-top: 2rem;
+ul{
+    padding: 0;
+    margin: 0;
 }
 
 input[type="radio"]{

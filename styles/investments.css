@@ -1,0 +1,47 @@
+#account-status{
+    display: flex;
+    margin: 5rem;
+}
+
+.container h1,h2,p{
+    font-size: 1.6rem;
+}
+
+#account-char{
+    margin-right: 5rem;
+    width: 70%;
+}
+
+#status-options{
+    /*removing default appearance*/
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border-radius: 0.5em;
+    border: 1px solid rgba(0, 0, 0, 0.156);
+    padding:0.2rem;
+    width: 75%;
+    font-size: 1.3rem;
+    /*adding arrow*/
+    padding-left: 2rem;
+    background-image: url("../imgs/selection_arrow.png");
+    background-repeat: no-repeat;
+    background-position: calc(50% - 21.5rem + 10rem);
+    background-size: 1rem;
+}
+
+.training-form label{
+    font-size: 1.6rem;
+}
+
+.button-group-trio{
+    margin-top: 4rem;
+}
+
+.button-group-trio .trio{
+    margin-top: 1rem;
+    width: 73%;
+}
+
+
+

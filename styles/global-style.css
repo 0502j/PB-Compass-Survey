@@ -120,4 +120,14 @@ textarea:hover{
         background-color: var(--primary-white);
     }  
     
+    textarea{
+        width: 20rem;
+        height: 8rem;
+    }
+
+    .button-group button{
+        width: 7rem;
+        font-size: 1rem;
+    }
+    
 }

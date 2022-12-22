@@ -1,6 +1,7 @@
 :root{
     --primary-green:#3EB25E;
     --primary-white: #FFFF;
+    --dark-green:#0e3a1b;
     --primary-font: 'Roboto', sans-serif;
 }
 
@@ -44,7 +45,7 @@ body{
     padding-top: 2rem;
 }
 
-input {
+input[type="radio"]{
     appearance: none;
     -webkit-appearance: none;
     border-radius: 50%;
@@ -60,8 +61,27 @@ input[type="radio"]:checked{
     -moz-appearance: none;
     -webkit-appearance: none;
     border-radius: 50%;
-    border: 0.5rem solid var(--primary-white);
+    border: 0.5rem solid var(--dark-green);
     box-shadow: 0 0 0 1px var(--primary-green);
 } 
  
 
+input[type="checkbox"]{
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 0%;
+    border: 0.5rem solid var(--primary-green);
+    box-shadow: 0 0 0 1px var(--primary-green);
+    opacity: 50%;
+    
+}
+
+/*removing default appearance*/
+input[type="checkbox"]:checked{ 
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border-radius: 0%;
+    border: 0.5rem solid var(--dark-green);
+    box-shadow: 0 0 0 1px var(--primary-green);
+} 

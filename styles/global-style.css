@@ -1,5 +1,11 @@
+:root{
+    --verde-primario:#3EB25E;
+    --branco: #FFFF;
+    --fonte-primaria: 'Roboto', sans-serif;
+}
+
 *{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--fonte-primaria);
     box-sizing: border-box;
 }
 
@@ -10,16 +16,17 @@ body{
     padding-block: 0;
     margin-inline: auto;
     margin-block: 0;
+    background-color: var(--branco);
 }
 
 
 .green-btn{
-    background-color: #3EB25E;
+    background-color:  var(--verde-primario);
     border-radius: 2.1rem;
     width: 12rem;
     height:2rem;
     border-color: transparent;
-    color: white;
+    color: var(--branco);
     font-size:1.3rem;
     padding: 0.5rem;
     line-height: 0.5rem;
@@ -50,8 +57,8 @@ input {
     appearance: none;
     -webkit-appearance: none;
     border-radius: 50%;
-    border: 0.5rem solid #3eb25f;
-    box-shadow: 0 0 0 1px #3eb25f;
+    border: 0.5rem solid var(--verde-primario);
+    box-shadow: 0 0 0 1px var(--verde-primario);
     opacity: 50%;
     
 }
@@ -62,8 +69,8 @@ input[type="radio"]:checked{
     -moz-appearance: none;
     -webkit-appearance: none;
     border-radius: 50%;
-    border: 0.5rem solid #EBEBEB;
-    box-shadow: 0 0 0 1px #3eb25f;
+    border: 0.5rem solid var(--branco);
+    box-shadow: 0 0 0 1px var(--verde-primario);
 } 
  
 

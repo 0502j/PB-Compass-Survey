@@ -100,6 +100,36 @@ textarea:hover{
     opacity: 100%;
 }
 
+.selectdiv{
+    position: relative;
+}
+
+.selectdiv:before{
+    content:url("../imgs/selection_arrow.png");
+    top: 0.5rem;
+    left:0.5rem;
+    padding: 0 0 0px;
+    position: absolute;
+ 
+}
+
+.select-options{
+    /*removing default apperance*/
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border-radius: 0.5em;
+    border: 1px solid rgb(0, 0, 0);
+    padding:0.2rem;
+    width: 80%;
+    font-size: 1.3rem;
+    opacity: 50%;
+}
+
+.select-options:hover{
+    opacity: 100%;
+}
+
 
 @media only screen and (max-width: 480px) {
 
@@ -124,6 +154,24 @@ textarea:hover{
     .radio-options{
         text-align: left;
         margin-left: 5rem;
+    }
+
+    .selectdiv{
+        position: relative;
+        width: 80%;
+        margin-left: 3rem;
+    }
+    
+    .selectdiv:before{
+        content:url("../imgs/selection_arrow.png");
+        top: 0.35rem;
+        left:3rem;
+        position: absolute;
+    }
+    
+    .select-options{
+        font-size: 1rem;
+        
     }
 
     

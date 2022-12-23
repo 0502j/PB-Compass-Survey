@@ -11,6 +11,8 @@ text.addEventListener("keyup", function(){
 
     if(characters.length >= 130){
         alltext.style.color = 'red';
+    }else{
+        alltext.style.color = 'black';
     }
 
 });

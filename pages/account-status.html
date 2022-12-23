@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../styles/account-status.css">
     <link rel="stylesheet" href="../styles/global-style.css">
     <!--Adding scripts-->
-    <script src="../scripts/account-status.js" defer></script>
+    <script src="../scripts/validation.js" defer></script>
 
     <title>Survey</title>
 </head>
@@ -22,22 +22,19 @@
                 <h2>What is the status of your account?</h2>
 
                 <div class="selectdiv">  
-                    <label>
-                        <select name="options" class="select-options">
+                        <select id="sel" onchange="validateSelected()" name="options" class="select-options">
                             <option value="not-selected"></option>
                             <option value="not-created">I have not created an account yet.</option>
                             <option value="created-used">I have an account and use it often.</option>
                             <option value="created-not-used">I have an account but I do not use it often.</option>
                         </select>
-                    </label>
-                    
                 </div>
     
                 <h2>In which financial markets do you operate?</h2>
 
                 <div class="radio-options container">
                     <form>
-                        <div class="investments-form"><input type="radio" id="stock-market" name="radio-opt" value="stock-market" class="green-radio">
+                        <div class="investments-form"><input type="radio" id="stock-market" name="radio-opt" class="radiobtn" value="stock-market" class="green-radio">
                         <label for="stock-market">stock market</label></div>
                         <div class="investments-form"><input type="radio" id="foreign exchange" name="radio-opt" value="foreign exchange">
                         <label for="foreign exchange">foreign exchange</label></div>
@@ -52,7 +49,7 @@
                     <div class="button-group-trio">
                         <div class="button-group">
                             <a href="start.html"><button class="green-btn back"><b>Back</b></button></a>
-                            <a href="investments.html"><button class="green-btn next"><b>Next</b></button></a>
+                            <button onclick="checkRadio()" class="green-btn next"><b>Next</b></button>
                         </div>
                         <a href="investments.html"><button class="green-btn" id="skip"><b>Skip</b></button></a>
                     </div>

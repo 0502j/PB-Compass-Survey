@@ -124,6 +124,9 @@ textarea:hover{
     width: 80%;
     font-size: 1.3rem;
     opacity: 50%;
+    text-overflow: ellipsis;
+    padding-left: 2rem;
+
 }
 
 .select-options:hover{

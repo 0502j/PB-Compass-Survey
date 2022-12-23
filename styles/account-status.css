@@ -56,7 +56,7 @@
 
 @media only screen and (max-width: 460px) {
 
-    #account-status{
+    /* #account-status{
         display: inline-block;
         text-align: center;
         align-content: center;
@@ -103,9 +103,61 @@
         font-size: 1rem;
         padding-left: 1rem;
       
+    } */
+
+    #account-status{
+        display: inline-block;
+        margin: auto;
+        padding: auto;
+        text-align: center;
+    }
+    
+    #account-status h2{
+        padding-bottom: 0.5rem;
+        padding-top: 1rem;
+        width:15rem;
+        margin-left: 5rem;
+        text-align: left;
+        
+    }
+    
+    .container h1,h2,p{
+        font-size: 1rem;
+    }
+    
+    #account-char{
+        margin: 0.2rem;
+        width: 50%;
+    }
+    
+    #status-options{
+        width: 60%;
+        text-align: left;
+        font-size: 1rem;
+    }
+      
+    .training-form label{
+        font-size: 1.6rem;
+    }
+    
+    .button-group-trio{
+        text-align: left;
+        margin-top: 1.5rem;
+    }
+    
+    .button-group-trio #skip{
+        margin-top: 0.5rem;
+        width: 88%;
+        font-size: 0.8rem;
+        margin-left: 0rem;
+
     }
 
-    
+    .radio-options label{
+        font-size: 1rem;
+        
+    }
+ 
   
     
 }

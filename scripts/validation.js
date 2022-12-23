@@ -17,6 +17,15 @@ function checkRadio(){
     }
 }
 
+function checkTextArea(){
+    if(text.value === ''){
+      alert("Text area is empty. Please try again before going to the next page.");
+    }else{
+        window.location = "personaldata.html";
+    }
+  }
+  
+
 
 function validateSelected(){
     let selection = document.getElementById('sel');
@@ -27,6 +36,4 @@ function validateSelected(){
 
     return value;
 }
-
-
 

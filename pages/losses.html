@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../styles/global-style.css">
     <!--Adding scripts-->
     <script src="../scripts/textarea.js" defer></script>
+    <script src="../scripts/validation.js" defer></script>
     <title>Survey</title>
 </head>
 <body>
@@ -27,7 +28,7 @@
                     <div class="button-group-trio">
                         <div class="button-group">
                             <a href="investments.html"><button class="green-btn"><b>Back</b></button></a>
-                            <a href="personaldata.html"><button class="green-btn next"><b>Next</b></button></a>
+                            <button onclick="checkTextArea()" class="green-btn next"><b>Next</b></button>
                         </div>
                         <a href="personaldata.html"><button class="green-btn" id="skip"><b>Skip</b></button></a>
                     </div>

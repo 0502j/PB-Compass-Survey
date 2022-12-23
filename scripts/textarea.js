@@ -1,11 +1,12 @@
 let text = document.getElementById("textarea");
 let countwords = document.getElementById("words");
 let alltext = document.getElementById("fulltext");
+let characters = text.value.split('');
 
 text.addEventListener("keyup", function(){
 
-    //array containing everything that its written
     let characters = text.value.split('');
+
     countwords.innerText = characters.length;
 
     if(characters.length >= 130){

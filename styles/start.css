@@ -67,5 +67,12 @@
     .button-group button{
         margin: 0.8rem;
     }
+
+    #start-text button{
+        width: 8rem;
+        font-size: 0.8rem;
+        margin:0.2rem;
+        margin-top: 1rem;
+    }
     
 }

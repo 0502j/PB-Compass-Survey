@@ -39,41 +39,21 @@ function validateSelected(){
     return value;
 }
 
-//Email validation with Regex
-function validateEmail(){
-    let emailinput = document.getElementById("email");
-    const emailRegex = new RegExp(/^[A-Za-z0-9_!#$%&'*+\/=?`{|}~^.-]+@[A-Za-z0-9.-]+$/);
-    const isValidEmail = emailRegex.test(emailinput.value);
-
-    if(isValidEmail === true){
-        return true;
-    }else{
-        return false;
-    }
-}
-
-
-//Age validation with Regex
-function validateAge(){
+//Validating info fields with Regex
+function validatePersonalData(){
     let ageinput = document.getElementById("age");
     const ageRegex = new RegExp(/^[1-9]?[0-9]{1}$|^100$/);
     const isValidAge = ageRegex.test(ageinput.value);
 
-    if(isValidAge === true){
-        return true;
-    }else{
-        return false;
-    }
-}
-
-
-//Name validation with Regex
-function validateName(){
     let nameinput = document.getElementById("name");
     const nameRegex = new RegExp(/^[a-zA-Z ]{2,30}$/);
     const isValidName = nameRegex.test(nameinput.value);
 
-    if(isValidName === true){
+    let emailinput = document.getElementById("email");
+    const emailRegex = new RegExp(/^[A-Za-z0-9_!#$%&'*+\/=?`{|}~^.-]+@[A-Za-z0-9.-]+$/);
+    const isValidEmail = emailRegex.test(emailinput.value);
+
+    if(isValidName === true && isValidEmail === true && isValidEmail === true){
         return true;
     }else{
         return false;
@@ -82,7 +62,7 @@ function validateName(){
 
 
 function checkPersonalInfo(){
-    if(validateEmail() === true && validateAge() === true && validateName() === true){
+    if(validatePersonalData() === true){
         window.location = "success.html";
     }else{
         alert("Please enter all information correctly before continuing.");

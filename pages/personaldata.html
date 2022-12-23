@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../styles/personaldata.css">
     <link rel="stylesheet" href="../styles/global-style.css">
     <!--Adding scripts-->
-    <script src="../scripts/personaldata.js" defer></script>
+    <script src="../scripts/validation.js" defer></script>
     <title>Survey</title>
 </head>
 <body>
@@ -21,9 +21,9 @@
                 <form>
                     <div id="personaldata-fields">
                         <h2>Full Name:</h2>
-                        <input type="text" required placeholder="Nasser Toghiri">
+                        <input id="name" type="text" required placeholder="Nasser Toghiri">
                         <h2>Email:</h2>
-                        <input type="email" required placeholder="N.Toghiri@gmail.com">
+                        <input oninput="validateEmail()" id="email" type="email" required placeholder="N.Toghiri@gmail.com">
                         <h2>Age:</h2>
                         <input id="age" type="number" required placeholder="_ _">
                      </div>
@@ -36,7 +36,7 @@
                             <a href="losses.html"><button class="green-btn"><b>Back</b></button></a>
                         </div>    
                         <div>                  
-                            <a href="success.html"><button class="green-btn submit"><b>Submit</b></button></a>                   
+                            <button onclick="checkPersonalInfo()" class="green-btn submit"><b>Submit</b></button>                 
                          </div>
                 </div>
                 

@@ -1,9 +1,9 @@
-#account-status{
+#investments{
     display: flex;
     margin: 5rem;
 }
 
-#account-status h2{
+#investments h2{
     width: 29rem;
     padding-bottom: 1rem;
     padding-top: 2rem;
@@ -13,7 +13,7 @@
     font-size: 1.6rem;
 }
 
-#account-char{
+#investments-char{
     margin-right: 5rem;
     width: 50%;
 }
@@ -54,5 +54,65 @@
     width: 73%;
 }
 
+@media only screen and (max-width: 460px) {
+    #investments{
+        display: inline-block;
+        margin: auto;
+        padding: auto;
+        text-align: center;
+    }
+    
+    #investments h2{
+        padding-bottom: 0.5rem;
+        padding-top: 1rem;
+        width:15rem;
+        margin-left: 5rem;
+        text-align: left;
+        
+    }
+    
+    .container h1,h2,p{
+        font-size: 1rem;
+    }
+    
+    #investments-char{
+        margin: 0.2rem;
+        width: 50%;
+    }
+    
+    #status-options{
+        width: 60%;
+        text-align: left;
+        font-size: 1rem;
+    }
+      
+    .training-form label{
+        font-size: 1.6rem;
+    }
+    
+    .button-group-trio{
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+    
+    .button-group-trio #skip{
+        margin-top: 0.5rem;
+        width: 40%;
+        font-size: 0.8rem;
+        margin-left: 0rem;
+    }
 
+    .training-form label{
+        font-size: 1rem;
+        
+    }
+    .training-form{
+        text-align: left;
+        margin-left: 5rem;
+    }
+    
+    form h2{
+        text-align: left;
+    }
 
+}

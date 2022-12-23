@@ -45,6 +45,7 @@ body{
 }
 
 input[type="radio"]{
+    /*removing default appearance*/
     appearance: none;
     -webkit-appearance: none;
     border-radius: 50%;
@@ -54,7 +55,6 @@ input[type="radio"]{
     
 }
 
-/*removing default appearance*/
 input[type="radio"]:checked{ 
     opacity: 100%;
 } 
@@ -63,6 +63,7 @@ input[type="radio"]:hover{
     opacity: 100%;
 } 
  
+/*removing default appearance*/
 input[type="checkbox"]{
     appearance: none;
     -webkit-appearance: none;
@@ -73,7 +74,6 @@ input[type="checkbox"]{
     
 }
 
-/*removing default appearance*/
 input[type="checkbox"]:checked{ 
     opacity: 100%;
 } 
@@ -124,5 +124,6 @@ textarea:hover{
         text-align: left;
         margin-left: 5rem;
     }
+
     
 }

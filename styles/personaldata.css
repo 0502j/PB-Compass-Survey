@@ -16,7 +16,7 @@
 
 #personaldata-char{
     margin-right: 5rem;
-    width: 50%;
+    width: 80%;
 }
 
 #personaldata-fields input{
@@ -37,17 +37,78 @@
     opacity: 100%;
 }
 
-.button-group{
+#psn-btn{
     margin-top: 1rem;
 }
 
-.button-group button{
+#psn-btn button{
     margin-top: 1rem;
     width: 26rem;
 }
 
 
+@media only screen and (max-width: 460px) {
+    #personaldata{
+        display: inline-block;
+        margin: 0rem;
+        padding-top: 0rem;
+    }
+    
+    #personaldata h2{
+        width: 29rem;
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+    
+    .container h1,h2,p{
+        font-size: 1rem;
+    }
+    
+    #personaldata-char{
+        margin-right: 0rem;
+        margin-top: 1rem;
+        width: 50%;
+    }
 
+    #psndiv{
+        text-align: center;
+    }
+    
+    #personaldata-fields{
+        margin-left: 2.5rem;
+    }
+
+    #personaldata-fields input{
+        padding: 0.5rem;
+        width: 20rem;
+        height: 2.5rem;
+        font-size: 1rem;
+    }
+    
+    #personaldata-fields #age{
+        width: 10rem;
+    }
+    
+    
+    #personaldata-fields input:hover {
+        opacity: 100%;
+    }
+    
+    #psn-btn button{
+        width: 60%;
+        font-size: 0.8rem;
+        margin-top: 0.5rem;
+        
+    }
+
+    #psn-btn{
+        text-align: center;
+        margin: auto;
+        padding: auto;
+        margin-top: 1.5rem;
+    }
+
+}
 
 
 

@@ -47,7 +47,7 @@
 }
 
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 480px) {
     #personaldata{
         display: inline-block;
         margin: 0rem;

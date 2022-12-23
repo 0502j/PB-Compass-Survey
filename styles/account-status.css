@@ -34,7 +34,7 @@
     background-image: url("../imgs/selection_arrow.png");
     background-repeat: no-repeat;
     background-position: calc(50% - 20.5rem + 10rem);
-    background-size: 1rem;
+    background-size: 1rem; 
 }
 
 #status-options:hover{
@@ -54,7 +54,7 @@
     width: 83%;
 }
 
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 480px) {
     
     #account-status{
         display: inline-block;

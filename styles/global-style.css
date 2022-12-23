@@ -5,7 +5,6 @@
     --primary-font: 'Roboto', sans-serif;
 }
 
-
 *{
     font-family: var(--primary-font);
     box-sizing: border-box;
@@ -41,17 +40,8 @@ body{
 
 }
 
-.radio-options{
-    display: inline-block;
-}
-
 .radio-options h2{
     padding-top: 2rem;
-}
-
-ul{
-    padding: 0;
-    margin: 0;
 }
 
 input[type="radio"]{
@@ -111,7 +101,7 @@ textarea:hover{
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 460px) {
 
     body{
         max-width: 100%;
@@ -127,7 +117,12 @@ textarea:hover{
 
     .button-group button{
         width: 7rem;
-        font-size: 1rem;
+        font-size: 0.8rem;
+    }
+    
+    .radio-options{
+        text-align: left;
+        margin-left: 5rem;
     }
     
 }

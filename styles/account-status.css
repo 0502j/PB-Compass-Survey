@@ -53,3 +53,59 @@
     margin-top: 1rem;
     width: 83%;
 }
+
+@media only screen and (max-width: 460px) {
+
+    #account-status{
+        display: inline-block;
+        text-align: center;
+        align-content: center;
+        margin: 0;
+        padding: 0;
+        
+    }
+ 
+    #account{
+        text-align: center;
+    }
+    
+    .container h1,h2,p{
+        font-size: 1rem;
+        margin-left: 0rem;
+    }
+    
+    #account-char{
+        margin: 0.2rem;
+        width: 50%;
+    }
+    
+    
+    .investments-form label{
+        font-size: 1rem;
+
+    }
+    
+    .button-group-trio{
+        margin-top: 0.8rem;
+        margin-left: 2rem;
+    }
+    
+    .button-group-trio #skip{
+        margin-top: 0.5rem;
+        width: 40%;
+        font-size: 0.8rem;
+        margin-left: 2.5rem;
+    }
+    
+    #status-options{
+        width: 60%;
+        text-align: left;
+        font-size: 1rem;
+        padding-left: 1rem;
+      
+    }
+
+    
+  
+    
+}

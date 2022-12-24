@@ -47,6 +47,21 @@ function validateSelected(){
     return value;
 }
 
+//Select validation - form2
+function validateSelectedTwo(){
+    let selectionform = document.getElementById('select');
+    let selectedoption = selectionform.options[selectionform.selectedIndex];
+    let value = selectedoption.value;
+
+    localStorage.setItem("2nd-selected-option", value);
+
+    console.log(value);
+
+    return value;
+}
+
+
+
 // Checkbox validation
 const btnnext = document.querySelector('.nextcheck');
 btnnext.addEventListener('click', (event) => {
@@ -56,7 +71,7 @@ btnnext.addEventListener('click', (event) => {
         val.push(checkbox.value);
     });
 
-   if(val != '' && validateSelected() !== 'not-selected' ){
+   if(val != '' && validateSelectedTwo() !== 'not-selected' ){
         form2success = true;
         localStorage.setItem("checkbox-selected", val);
         window.location = "losses.html";
@@ -100,4 +115,10 @@ function checkPersonalInfo(){
     }else{
         alert("Please enter all information correctly before continuing.");
     }
+}
+
+function skipped(){
+    localStorage.setItem("radio-selected", "None specified");
+    localStorage.setItem("checkbox-selected", "None specified");
+    localStorage.setItem("textarea-comment", "None specified");
 }

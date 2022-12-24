@@ -19,7 +19,7 @@
             <div class="container">
                 <h2>How do you decide to invest?</h2>
                 <div class="selectdiv">
-                    <select id="sel" onchange="validateSelected()" name="options" class="select-options">
+                    <select id="select" onchange="validateSelectedTwo()" name="options" class="select-options">
                         <option value="not-selected"></option>
                         <option value="not-created">I have not invested yet.</option>
                         <option value="created-used">I have already invested before and I do it often.</option>
@@ -52,7 +52,7 @@
                             <a href="account-status.html"><button class="green-btn"><b>Back</b></button></a>
                             <button class="green-btn next nextcheck"><b>Next</b></button>
                         </div>
-                        <a href="losses.html"><button class="green-btn" id="skip"><b>Skip</b></button></a>
+                        <a href="losses.html"><button onclick="skipped()" class="green-btn" id="skip"><b>Skip</b></button></a>
                     </div>
             </div>
         </section>

@@ -10,6 +10,7 @@ function checkRadio(){
         if(radio[i].checked){
             if(validateSelected() !== 'not-selected'){
                 form1success=true;
+                localStorage.setItem("radio-selected", radio[i].value);
                 window.location = "investments.html";
             }
         }
@@ -26,8 +27,10 @@ function checkTextArea(){
     if(text.value === ''){
       alert("Text area is empty. Please try again before going to the next page.");
     }else{
+        localStorage.setItem("textarea-comment", text.value);
         window.location = "personaldata.html";
     }
+
   }
   
 
@@ -36,6 +39,8 @@ function validateSelected(){
     let selection = document.getElementById('sel');
     let seloption = selection.options[selection.selectedIndex];
     let value = seloption.value;
+
+    localStorage.setItem("selected-option", value);
 
     console.log(value);
 
@@ -53,6 +58,7 @@ btnnext.addEventListener('click', (event) => {
 
    if(val != '' && validateSelected() !== 'not-selected' ){
         form2success = true;
+        localStorage.setItem("checkbox-selected", val);
         window.location = "losses.html";
     }
 
@@ -78,6 +84,9 @@ function validatePersonalData(){
     const isValidEmail = emailRegex.test(emailinput.value);
 
     if(isValidName === true && isValidEmail === true && isValidEmail === true){
+        localStorage.setItem("name-info", nameinput.value);
+        localStorage.setItem("email-info", emailinput.value);
+        localStorage.setItem("age-info", ageinput.value);
         return true;
     }else{
         return false;

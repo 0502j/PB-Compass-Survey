@@ -118,7 +118,20 @@ function checkPersonalInfo(){
 }
 
 function skipped(){
-    localStorage.setItem("radio-selected", "None specified");
-    localStorage.setItem("checkbox-selected", "None specified");
-    localStorage.setItem("textarea-comment", "None specified");
+
+    //textarea
+    if(text.value === ''){
+        localStorage.setItem("textarea-comment", "None specified");
+    }
+
+    //radiobuttons
+    if(form1success === false){
+        localStorage.setItem("radio-selected", "None specified");
+    }
+
+    //checkboxes
+    if(form2success === false){
+        localStorage.setItem("checkbox-selected", "None specified");
+    }
+   
 }

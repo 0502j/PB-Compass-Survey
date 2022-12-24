@@ -15,9 +15,10 @@
 }
 
 #losses-char{
+    width: 34rem;
     margin-right: 5rem;
-    width: 50%;
 }
+
 
 .investments-form label{
     font-size: 1.6rem;
@@ -45,6 +46,16 @@
         padding-block: auto;
         margin-block: auto;
     }
+
+    #wrapper{
+        width: 70%;
+        height: auto;
+     }
+
+    #losses-char{
+        max-width:80%;
+        margin-right: 0rem;
+    }
     
     #losses h2{
         width: 20rem;
@@ -59,11 +70,6 @@
 
     h2{
         margin: auto;
-    }
-    
-    #losses-char{
-        margin-right: 0rem;
-        width: 60%;
     }
     
     .button-group-trio{

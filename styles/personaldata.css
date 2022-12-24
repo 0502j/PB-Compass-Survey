@@ -15,9 +15,10 @@
 }
 
 #personaldata-char{
+    width: 34rem;
     margin-right: 5rem;
-    width: 80%;
 }
+
 
 #personaldata-fields input{
     border: 1px solid rgb(0, 0, 0);
@@ -47,15 +48,23 @@
 }
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
+
+    body{
+        margin: 0.5rem;
+    }
+
     #personaldata{
-        display: inline-block;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
         margin: 0rem;
-        padding-top: 0rem;
+        flex-direction: column;
+       
     }
     
     #personaldata h2{
-        width: 29rem;
         padding-bottom: 1rem;
         padding-top: 1rem;
     }
@@ -63,25 +72,43 @@
     .container h1,h2,p{
         font-size: 1rem;
     }
+
+    .container{
+        margin: 0;
+        padding:0;
+    }
     
-    #personaldata-char{
-        margin-right: 0rem;
-        margin-top: 1rem;
-        width: 50%;
+    #personaldata{
+        margin: 0;
+        padding:0;
+
     }
 
-    #psndiv{
-        text-align: center;
+    #wrapper{
+        width: 60%;
+        height: auto;
+     }
+    
+    #personaldata-char{
+        max-width:80%;
+        margin: 0;
+        background-color: blue;
     }
     
+    form{
+        text-align: center;
+    }
+
     #personaldata-fields{
-        margin-left: 2.5rem;
+        text-align: left;
+        width: 80%;
     }
 
     #personaldata-fields input{
+        width: 20rem;
+        height: 1rem;
         padding: 0.5rem;
-        width: 25rem;
-        height: 2.5rem;
+        
         font-size: 1rem;
     }
     
@@ -90,23 +117,22 @@
     }
     
     
-    #personaldata-fields input:hover {
-        opacity: 100%;
-    }
-    
     #psn-btn button{
-        width: 60%;
+        width: 50%;
         font-size: 0.8rem;
         margin-top: 0.5rem;
-        
+        text-align: center;
     }
 
     #psn-btn{
+        flex-wrap: wrap;
         text-align: center;
         margin: auto;
         padding: auto;
         margin-top: 1.5rem;
     }
+    
+   
 
 }
 

@@ -12,37 +12,52 @@
     <title>Survey</title>
 </head>
 <body>
-    <main>
-        <!--Start of survey section-->
+    <!--Start of survey section-->
         <section id="account-status" class="container">
-            <img id="account-char" src="../imgs/char/two.png">
-            
-            <div class="container" id="account">
-                <h2>What is the status of your account?</h2>
+          
+            <div id="wrapper">
+                <img id="account-char" src="../imgs/svg/3.svg">
+            </div>
 
-                <div class="selectdiv">  
-                        <select id="sel" onchange="validateSelected()" name="options" class="select-options">
-                            <option value="not-selected"></option>
-                            <option value="not-created">I have not created an account yet.</option>
-                            <option value="created-used">I have an account and use it often.</option>
-                            <option value="created-not-used">I have an account but I do not use it often.</option>
-                        </select>
+            <div>
+                <div class="acc-text">
+                    <h2>What is the status of your account?</h2>
                 </div>
-    
-                <h2>In which financial markets do you operate?</h2>
 
-                <div class="radio-options container">
+                <div class="selectdiv">
+                    <select id="sel" onchange="validateSelected()" name="options" class="select-options">
+                        <option value="not-selected"></option>
+                        <option value="not-created">I have not created an account yet.</option>
+                        <option value="created-used">I have an account and use it often.</option>
+                        <option value="created-not-used">I have an account but I do not use it often.</option>
+                    </select>
+                </div>
+
+                <div class="acc-text">
+                    <h2>What resources have you used or are you using for your training?</h2>
+                </div>
+
                     <form>
-                        <div class="investments-form"><input type="radio" id="stock-market" name="radio-opt" class="radiobtn" value="stock-market" class="green-radio">
-                        <label for="stock-market">stock market</label></div>
-                        <div class="investments-form"><input type="radio" id="foreign exchange" name="radio-opt" value="foreign exchange">
-                        <label for="foreign exchange">foreign exchange</label></div>
-                        <div class="investments-form"><input type="radio" id="commodity" name="radio-opt" value="commodity">
-                        <label for="commodity">commodity</label></div>
-                        <div class="investments-form"><input type="radio" id="bond market" name="radio-opt" value="bond market">
-                        <label for="bond market">bond market</label></div>
-                        <div class="investments-form"><input type="radio" id="criptocurrency market" name="radio-opt" value="criptocurrency market">
-                        <label for="criptocurrency market">criptocurrency market</label></div>
+                                <div class="accounts-form">
+                                    <input type="radio" id="stock-market" name="radio-opt" class="radiobtn" value="stock-market" class="green-radio">
+                                    <label for="stock-market">stock market</label>
+                                </div>
+                                <div class="accounts-form">
+                                    <input type="radio" id="foreign exchange" name="radio-opt" value="foreign exchange">
+                                    <label for="foreign exchange">foreign exchange</label>
+                                </div class="accounts-form">
+                                <div class="accounts-form">
+                                    <input type="radio" id="commodity" name="radio-opt" value="commodity">
+                                    <label for="commodity">commodity</label>
+                                </div class="accounts-form">
+                                <div class="accounts-form">
+                                    <input type="radio" id="bond market" name="radio-opt" value="bond market">
+                                    <label for="bond market">bond market</label>
+                                </div>
+                                <div class="accounts-form">
+                                    <input type="radio" id="criptocurrency market" name="radio-opt" value="criptocurrency market">
+                                    <label for="criptocurrency market">criptocurrency market</label>
+                                </div>
                     </form>
 
                     <div class="button-group-trio">
@@ -52,10 +67,8 @@
                         </div>
                         <a href="investments.html"><button onclick="skipped()" class="green-btn" id="skip"><b>Skip</b></button></a>
                     </div>
-
             </div>
         </section>
     <!--End of survey section-->
-    </main>
 </body>
 </html>

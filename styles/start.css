@@ -32,24 +32,24 @@
 }
 
 
-@media only screen and (max-width:480px){
+@media only screen and (max-width:768px){
 
     #start{
-        display: block;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         text-align: center;
-     
+        margin: 1.5rem;
     }
+
+    #wrapper{
+        width: 100%;
+        height: auto;
+     }
     
     #start-char{
-        width: 20rem;
+        max-width:100%;
         margin-right: 0rem;
-    }
-    
-    #start-text{
-        width: 20rem;
-        margin-inline: auto;
     }
     
     #start h1{
@@ -64,15 +64,31 @@
         padding: 0rem;
     }
     
-    .button-group button{
-        margin: 0.8rem;
+    .button-group{
+        display: flex;
+    }
+
+    .button-group a{
+        margin: auto;
+        padding: auto;
+        text-align: center;
+        align-content: center;
     }
 
     #start-text button{
-        width: 8rem;
+        width: 10rem;
         font-size: 0.8rem;
         margin:0.2rem;
         margin-top: 1rem;
+        
+    }
+
+    #start-text{
+      width: 20rem;
+    }
+
+    #start-text > *{
+        max-width: fit-content;
     }
     
 }

@@ -7,20 +7,9 @@
 
 *{
     font-family: var(--primary-font);
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-
-body{
-    max-width: clamp(90rem,50%,90rem);
-    padding-inline: 2rem;
-    padding-block: 0;
-    margin-inline: auto;
-    margin-block: 0;
-    background-color: var(--primary-white);
-}
-
 
 .green-btn{
     background-color:  var(--primary-green);
@@ -102,15 +91,14 @@ textarea:hover{
 
 .selectdiv{
     position: relative;
+    width: 100%;
 }
 
-.selectdiv:before{
+.selectdiv:after{
     content:url("../imgs/selection_arrow.png");
     top: 0.5rem;
     left:0.5rem;
-    padding: 0 0 0px;
-    position: absolute;
- 
+    position: absolute; 
 }
 
 .select-options{
@@ -121,7 +109,7 @@ textarea:hover{
     border-radius: 0.5em;
     border: 1px solid rgb(0, 0, 0);
     padding:0.2rem;
-    width: 80%;
+    max-width: fit-content;
     font-size: 1.3rem;
     opacity: 50%;
     text-overflow: ellipsis;
@@ -137,45 +125,64 @@ textarea:hover{
 @media only screen and (max-width: 480px) {
 
     body{
-        max-width: 100%;
-        padding-inline:0;
-        margin: auto;
-        background-color: var(--primary-white);
+        max-width: fit-content;
     }  
     
     textarea{
-        width: 20rem;
-        height: 8rem;
+        width: 18rem;
+        height: 5rem;
     }
 
     .button-group button{
-        width: 10rem;
+        width: 8rem;
         font-size: 0.8rem;
         margin:0.2rem;
     }
+
+    .button-group{
+        margin: 0;
+        padding: 0;
+    }
+
+    .button-group-trio{
+        text-align: center;
+    }
+
+    .button-group-trio #skip{
+        margin-top: 0.5rem;
+        width: 75%;
+        font-size: 0.8rem;
+        margin-left: 0rem;
+        text-align: center;
+
+    }
+
     
     .radio-options{
         text-align: left;
-        margin-left: 5rem;
+        
     }
 
-    .selectdiv{
+    .selectdiv select{
         position: relative;
-        width: 80%;
-        margin-left: 3rem;
+        width: 100%;
     }
     
-    .selectdiv:before{
+    .selectdiv:after{
         content:url("../imgs/selection_arrow.png");
         top: 0.35rem;
-        left:3rem;
+        left:0.8rem;
         position: absolute;
     }
     
     .select-options{
-        font-size: 1rem;
-        
+        font-size: 0.8rem;
+        text-align: left;
     }
+        
+
+        
+
 
     
 }

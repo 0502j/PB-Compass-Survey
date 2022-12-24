@@ -6,7 +6,7 @@
 #account-status h2{
     width: 29rem;
     padding-bottom: 1rem;
-    padding-top: 1.5rem;
+    padding-top: 2rem;
 }
 
 .container h1,h2,p{
@@ -14,11 +14,12 @@
 }
 
 #account-char{
+    width: 34rem;
     margin-right: 5rem;
-    width: 50%;
 }
 
-.investments-form label{
+
+.accounts-form label{
     font-size: 1.6rem;
 }
 
@@ -31,48 +32,62 @@
     width: 83%;
 }
 
-@media only screen and (max-width: 480px) {
-    
+@media only screen and (max-width: 768px) {
+
     #account-status{
-        display: inline-block;
-        margin: auto;
-        padding: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
         text-align: center;
+        margin: 0rem;
+        flex-direction: column;
+
     }
-    
-    #account-status h2{
-        padding-bottom: 0.5rem;
-        padding-top: 1rem;
-        width:15rem;
-        margin-left: 5rem;
-        text-align: left;
         
+    .container h2{
+        padding: 0;
+        margin: 0;
+        text-align: left;
     }
     
     .container h1,h2,p{
         font-size: 1rem;
     }
     
-    #account-char{
-        margin: 0.2rem;
+    #wrapper{
         width: 60%;
+        height: auto;
+     }
+    
+    #account-char{
+        max-width:100%;
+        margin-right: 0rem;
     }
 
-      
-    .training-form label{
-        font-size: 1.6rem;
+    .radio-options{
+        margin: 0;
+        padding: 0;
     }
-    
-    .button-group-trio{
+
+    .accounts-form label{
+        font-size: 1rem;
+
+    }
+
+    .accounts-form{
         text-align: left;
-        margin-top: 1.5rem;
     }
     
+    .button-group{
+        flex-wrap: wrap;
+    }
+
     .button-group-trio #skip{
         margin-top: 0.5rem;
-        width: 88%;
+        width: 100%;
         font-size: 0.8rem;
         margin-left: 0rem;
+        text-align: center;
 
     }
 
@@ -80,7 +95,18 @@
         font-size: 1rem;
         
     }
+
+    .acc-text{
+        padding: 0;
+        margin: 0;
+        
+    }
+
+    .acc-text h2{
+        max-width: fit-content;
+        width:20rem;
+        font-size: 1rem;
+    }
  
-  
     
 }

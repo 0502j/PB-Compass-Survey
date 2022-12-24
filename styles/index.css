@@ -1,6 +1,5 @@
 #index-body{
     display: block;
-    max-width: clamp(700px,50%,900px);
     padding-block: 0;
     margin-inline: auto;
     margin-block: 0;
@@ -36,10 +35,10 @@
 }
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
 
     #welcome{
-        display: block;
+        flex-wrap: wrap;
     }
 
     #char{
@@ -53,12 +52,6 @@
     
     #welcome p{
         font-size:1.3rem;
-    }
-
-    #welcome-text{
-        width: 20rem;
-        margin-inline: auto;
-
     }
 
 }

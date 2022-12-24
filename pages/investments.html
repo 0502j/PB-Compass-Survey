@@ -14,10 +14,16 @@
 <body>
     <!--Start of survey section-->
         <section id="investments" class="container">
-            <img id="investments-char" src="../imgs/char/three.png">
-            
-            <div class="container">
-                <h2>How do you decide to invest?</h2>
+
+           <div class="wrapper"> 
+            <img id="investments-char" src="../imgs/svg/4.svg">
+           </div>
+           
+            <div class="investments">
+                <div class="inv-text">
+                    <h2>How do you decide to invest?</h2>
+                </div>
+
                 <div class="selectdiv">
                     <select id="select" onchange="validateSelectedTwo()" name="options" class="select-options">
                         <option value="not-selected"></option>
@@ -27,8 +33,11 @@
                     </select>
                 </div>
 
+                <div class="inv-text">
+                    <h2>What resources have you used or are you using for your training?</h2>
+                </div>
+
                     <form>
-                            <h2>What resources have you used or are you using for your training?</h2>
                                 <div class="training-form">
                                     <input type="checkbox" id="books" name="res" value="books">
                                     <label for="books">Books and articles</label>

@@ -14,27 +14,8 @@
 }
 
 #investments-char{
+    width: 34rem;
     margin-right: 5rem;
-    width: 50%;
-}
-
-#status-options{
-    /*removing default appearance*/
-    appearance: none;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    border-radius: 0.5em;
-    border: 1px solid rgb(0, 0, 0);
-    padding:0.2rem;
-    width: 75%;
-    font-size: 1.3rem;
-    /*adding arrow*/
-    padding-left: 2rem;
-    background-image: url("../imgs/selection_arrow.png");
-    background-repeat: no-repeat;
-    background-position: calc(50% - 21.4rem + 10rem);
-    background-size: 1rem;
-    opacity: 50%;
 }
 
 #status-options:hover{
@@ -54,40 +35,52 @@
     width: 73%;
 }
 
-@media only screen and (max-width: 480px) {
+
+
+@media only screen and (max-width: 768px) {
+    body{
+        margin: 1rem;
+    }
     #investments{
-        display: inline-block;
-        margin: auto;
-        padding: auto;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
         text-align: center;
+        margin: 0rem;
+        flex-direction: column;
     }
     
-    #investments h2{
-        padding-bottom: 0.5rem;
-        padding-top: 1rem;
-        width:15rem;
-        margin-left: 5rem;
+    .container h2{
+        padding: 0;
+        margin: 0;
         text-align: left;
-        
     }
     
     .container h1,h2,p{
         font-size: 1rem;
     }
     
+    #wrapper{
+        width: 70%;
+        height: auto;
+     }
+
     #investments-char{
-        margin: 0.2rem;
-        width: 60%;
+        max-width:80%;
+        margin-right: 0rem;
     }
-    
-    #status-options{
-        width: 60%;
+  
+
+    .button-group{
+        flex-wrap: wrap;
+    }
+
+    .training-form{
         text-align: left;
-        font-size: 1rem;
     }
-      
+
     .training-form label{
-        font-size: 1.6rem;
+        font-size: 1rem;
     }
     
     .button-group-trio{
@@ -97,22 +90,22 @@
     
     .button-group-trio #skip{
         margin-top: 0.5rem;
-        width: 72%;
+        width: 100%;
         font-size: 0.8rem;
         margin-left: 0rem;
-    }
+        text-align: center;
 
-    .training-form label{
-        font-size: 1rem;
-        
-    }
-    .training-form{
-        text-align: left;
-        margin-left: 5rem;
     }
     
-    form h2{
-        text-align: left;
+    .inv-text{
+        padding: 0;
+        margin: 0;
+    }
+
+    .inv-text h2{
+        max-width: fit-content;
+        width:20rem;
+        font-size: 1rem;
     }
 
 }

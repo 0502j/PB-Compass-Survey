@@ -1,5 +1,8 @@
 let form1success = false;
+let form2success = false;
 const radio = document.querySelectorAll('input[name="radio-opt"]');
+let checkboxes = document.querySelectorAll('input[name="res"]');
+
 
 //Radio buttons + select validation
 function checkRadio(){
@@ -38,6 +41,27 @@ function validateSelected(){
 
     return value;
 }
+
+// Checkbox validation
+const btnnext = document.querySelector('.nextcheck');
+btnnext.addEventListener('click', (event) => {
+    let checkboxes = document.querySelectorAll('input[name="res"]:checked');
+    let val = [];
+    checkboxes.forEach((checkbox) => {
+        val.push(checkbox.value);
+    });
+
+   if(val != '' && validateSelected() !== 'not-selected' ){
+        form2success = true;
+        window.location = "losses.html";
+    }
+
+    if(form2success === false){
+        alert("Please fill the form before going to the next page.");
+    }
+
+});  
+
 
 //Validating info fields with Regex
 function validatePersonalData(){

@@ -98,7 +98,7 @@ function validatePersonalData(){
     const emailRegex = new RegExp(/^[A-Za-z0-9_!#$%&'*+\/=?`{|}~^.-]+@[A-Za-z0-9.-]+$/);
     const isValidEmail = emailRegex.test(emailinput.value);
 
-    if(isValidName === true && isValidEmail === true && isValidEmail === true){
+    if(isValidName === true && isValidEmail === true && isValidAge === true){
         localStorage.setItem("name-info", nameinput.value);
         localStorage.setItem("email-info", emailinput.value);
         localStorage.setItem("age-info", ageinput.value);

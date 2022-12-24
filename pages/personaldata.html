@@ -21,16 +21,15 @@
                 <form>
                     <div id="personaldata-fields">
                         <h2>Full Name:</h2>
-                        <input id="name" type="text" required placeholder="Nasser Toghiri">
+                        <input oninput="validatePersonalData()" id="name" type="text" required placeholder="Nasser Toghiri">
                         <h2>Email:</h2>
-                        <input oninput="validateEmail()" id="email" type="email" required placeholder="N.Toghiri@gmail.com">
+                        <input oninput="validatePersonalData()" id="email" type="email" required placeholder="N.Toghiri@gmail.com">
                         <h2>Age:</h2>
-                        <input id="age" type="number" required placeholder="_ _">
+                        <input oninput="validatePersonalData()" id="age" type="number" required placeholder="_ _">
                      </div>
 
                 </form>
-                
-                <div >
+                <div>
                     <div id="psn-btn">
                         <div>
                             <a href="losses.html"><button class="green-btn"><b>Back</b></button></a>

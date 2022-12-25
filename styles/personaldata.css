@@ -67,6 +67,7 @@
     #personaldata h2{
         padding-bottom: 1rem;
         padding-top: 1rem;
+        width: 10rem;
     }
     
     .container h1,h2,p{
@@ -85,7 +86,7 @@
     }
 
     #wrapper{
-        width: 60%;
+        width: 100%;
         height: auto;
      }
     

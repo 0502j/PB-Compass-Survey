@@ -41,10 +41,9 @@
         text-align: center;
         align-items: center;
         align-content: center;
-        padding-inline: auto;
-        margin-inline: auto;
-        padding-block: auto;
-        margin-block: auto;
+        flex-wrap: wrap;
+        margin: auto;
+        padding: auto;
     }
 
     #losses-char{

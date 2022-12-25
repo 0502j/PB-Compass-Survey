@@ -63,13 +63,6 @@
         display: flex;
     }
 
-    .button-group a{
-        margin: auto;
-        padding: auto;
-        text-align: center;
-        align-content: center;
-    }
-
     #start-text button{
         width: 10rem;
         font-size: 0.8rem;

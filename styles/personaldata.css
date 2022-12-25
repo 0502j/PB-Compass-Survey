@@ -79,19 +79,9 @@
         padding:0;
     }
     
-    #personaldata{
-        margin: 0;
-        padding:0;
-
-    }
-    
     #personaldata-char{
         max-width:100%;
         margin: 0;
-    }
-    
-    form{
-        text-align: center;
     }
 
     #personaldata-fields{
@@ -103,7 +93,6 @@
         width: 20rem;
         height: 1rem;
         padding: 0.5rem;
-        
         font-size: 1rem;
     }
     

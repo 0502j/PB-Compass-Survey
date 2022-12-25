@@ -74,11 +74,6 @@
         margin-right: 0rem;
     }
 
-    .radio-options{
-        margin: 0;
-        padding: 0;
-    }
-
     .accounts-form label{
         font-size: 1rem;
 
@@ -106,21 +101,8 @@
         
     }
 
-    .acc-text{
-        padding: 0;
-        margin: 0;
-        
-    }
-
-    .acc-text h2{
-        max-width: fit-content;
-        width:20rem;
-        font-size: 1rem;
-    }
-
     #sel{
         width: 20rem;
     }
  
-    
 }

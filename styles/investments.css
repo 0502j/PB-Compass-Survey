@@ -41,9 +41,11 @@
 }
 
 @media only screen and (max-width: 768px) {
+
     body{
         margin: 1rem;
     }
+    
     #investments{
         flex-wrap: wrap;
         justify-content: center;
@@ -101,10 +103,6 @@
 
     }
     
-    .inv-text{
-        padding: 0;
-        margin: 0;
-    }
 
     .inv-text h2{
         max-width: fit-content;

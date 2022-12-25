@@ -26,11 +26,11 @@
 @media only screen and (max-width: 768px) {
 
     #success{
-        padding: 0rem;
-    }
-    
-    #success-text > *{
-        margin: 1.5rem;
+        padding: 1rem;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        text-align: center;
     }
     
     #success-text > h1{
@@ -41,10 +41,12 @@
     #success-text > p{
         font-size: 1rem;
     }
+
+  
     
     #success-char{
-        width: 70%;
-        padding: 2rem;
+        width: 100%;
+        margin-right: 0rem;
     }
     
 }

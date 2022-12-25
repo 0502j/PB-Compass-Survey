@@ -58,19 +58,20 @@
         margin: 0;
         text-align: left;
     }
+
+    #investments h2{
+        width: fit-content;
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+    }
     
     .container h1,h2,p{
         font-size: 1rem;
     }
-    
-    #wrapper{
-        width: 60%;
-        height: auto;
-     }
-
+  
     #investments-char{
-        max-width:60%;
-        margin-right: 0rem;
+        max-width:100%;
+        margin: 0;
     }
   
 

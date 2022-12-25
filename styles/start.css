@@ -41,11 +41,6 @@
         text-align: center;
         margin: 1.5rem;
     }
-
-    #wrapper{
-        width: 100%;
-        height: auto;
-     }
     
     #start-char{
         max-width:100%;
@@ -85,6 +80,7 @@
 
     #start-text{
       width: 20rem;
+      padding: 1rem;
     }
 
     #start-text > *{

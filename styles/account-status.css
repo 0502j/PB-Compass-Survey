@@ -48,6 +48,12 @@
 
     }
         
+    #account-status h2{
+        width: fit-content;
+        padding-bottom: 1rem;
+        padding-top: 2rem;
+    }
+
     .container h2{
         padding: 0;
         margin: 0;

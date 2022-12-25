@@ -60,30 +60,6 @@ function validateSelectedTwo(){
     return value;
 }
 
-
-
-// Checkbox validation
-const btnnext = document.querySelector('.nextcheck');
-btnnext.addEventListener('click', (event) => {
-    let checkboxes = document.querySelectorAll('input[name="res"]:checked');
-    let val = [];
-    checkboxes.forEach((checkbox) => {
-        val.push(checkbox.value);
-    });
-
-   if(val != '' && validateSelectedTwo() !== 'not-selected' ){
-        form2success = true;
-        localStorage.setItem("checkbox-selected", val);
-        window.location = "losses.html";
-    }
-
-    if(form2success === false){
-        alert("Please fill the form before going to the next page.");
-    }
-
-});  
-
-
 //Validating info fields with Regex
 function validatePersonalData(){
     let ageinput = document.getElementById("age");
@@ -115,23 +91,4 @@ function checkPersonalInfo(){
     }else{
         alert("Please enter all information correctly before continuing.");
     }
-}
-
-function skipped(){
-
-    //textarea
-    if(text.value === ''){
-        localStorage.setItem("textarea-comment", "None specified");
-    }
-
-    //radiobuttons
-    if(form1success === false){
-        localStorage.setItem("radio-selected", "None specified");
-    }
-
-    //checkboxes
-    if(form2success === false){
-        localStorage.setItem("checkbox-selected", "None specified");
-    }
-   
 }

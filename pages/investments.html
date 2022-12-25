@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="../styles/global-style.css">
     <!--Adding scripts-->
     <script src="../scripts/validation.js" defer></script>
+    <script src="../scripts/checkbox-validation.js" defer></script>
+    <script src="../scripts/skip.js" defer></script>
     <title>Survey</title>
 </head>
 <body>
@@ -61,7 +63,7 @@
                             <a href="account-status.html"><button class="green-btn"><b>Back</b></button></a>
                             <button class="green-btn next nextcheck"><b>Next</b></button>
                         </div>
-                        <a href="losses.html"><button onclick="skipped()" class="green-btn" id="skip"><b>Skip</b></button></a>
+                        <button onclick="invskip()" class="green-btn" id="skip"><b>Skip</b></button>
                     </div>
             </div>
         </section>

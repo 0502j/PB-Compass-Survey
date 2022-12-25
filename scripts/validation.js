@@ -71,7 +71,7 @@ function validatePersonalData(){
     const isValidName = nameRegex.test(nameinput.value);
 
     let emailinput = document.getElementById("email");
-    const emailRegex = new RegExp(/^[A-Za-z0-9_!#$%&'*+\/=?`{|}~^.-]+@[A-Za-z0-9.-]+$/);
+    const emailRegex = new RegExp(/^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i);
     const isValidEmail = emailRegex.test(emailinput.value);
 
     if(isValidName === true && isValidEmail === true && isValidAge === true){

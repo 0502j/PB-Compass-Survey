@@ -34,6 +34,10 @@
 
 @media only screen and (max-width: 768px) {
 
+    body{
+        margin: 1rem;
+    }
+
     #account-status{
         flex-wrap: wrap;
         justify-content: center;
@@ -55,7 +59,7 @@
     }
     
     #wrapper{
-        width: 60%;
+        width: 100%;
         height: auto;
      }
     
@@ -106,6 +110,10 @@
         max-width: fit-content;
         width:20rem;
         font-size: 1rem;
+    }
+
+    #sel{
+        width: 20rem;
     }
  
     

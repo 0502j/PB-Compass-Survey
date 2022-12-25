@@ -32,10 +32,13 @@
 
 .button-group-trio #skip{
     margin-top: 1rem;
-    width: 73%;
+    width: 85%;
 }
 
 
+#select{
+    width:25rem;
+}
 
 @media only screen and (max-width: 768px) {
     body{
@@ -61,12 +64,12 @@
     }
     
     #wrapper{
-        width: 70%;
+        width: 100%;
         height: auto;
      }
 
     #investments-char{
-        max-width:80%;
+        max-width:100%;
         margin-right: 0rem;
     }
   
@@ -107,5 +110,11 @@
         width:20rem;
         font-size: 1rem;
     }
+
+    
+    #select{
+        width:18rem;
+    }
+
 
 }

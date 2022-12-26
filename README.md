@@ -7,7 +7,6 @@
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
-<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
 </div>
 
 <br>
@@ -20,20 +19,30 @@
   <h3>Survey Website</h3>
   <p>This project consists of a survey website, in which the user will answer a poll about working in finantial markets. There will be 5 to 6 poll steps where users can tell more about the markets they operate, the kind of resources they use for training, as well as talking about investments losses. </p>
   <p>The project will use the following:</p>
-  <ol>
+  <ul>
   <li>HTML</li>
   <li>CSS</li>
   <li>Responsiveness</li>
   <li>Javascript</li>
-  <li>Typescript</li>
-  <li>User input validation</li>
-  </ol>
+  <li>User input validation & regex</li>
+  </ul>
 
   </div>
 
 </section>
 
 <br><hr>
+
+<section>
+  <h4>How to run the project: </h4>
+  <ol>
+  <li>Download the project .zip</li>
+  <li>Extract the downloaded zip</li>
+  <li>Open "index.html" located in "pages" folder</li>
+  <li>Done! ✔</li>
+  </ol>
+</section>
+
 <section>
   <h4>Important links</h4>
   <p>🔗 Trello: https://bit.ly/3G8bTzk</p>

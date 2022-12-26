@@ -63,7 +63,7 @@ function validateSelectedTwo(){
 //Validating info fields with Regex
 function validatePersonalData(){
     let ageinput = document.getElementById("age");
-    const ageRegex = new RegExp(/^[1-9]?[0-9]{1}$|^100$/);
+    const ageRegex = new RegExp(/^([1-9]?\d|100)$/);
     const isValidAge = ageRegex.test(ageinput.value);
 
     let nameinput = document.getElementById("name");
